@@ -1,0 +1,110 @@
+.contain-project {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    background-image: linear-gradient(var(--primary-color), var(--dark_calm), var(--dark_calm));
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-slice-project {
+    background-image: url("../../images/dark-slice.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 0px 5px;
+    margin: 35px 10px;
+
+}
+
+.h2-project {
+    font-family: var(--font-family-main);
+    font-size: var(--header-1);
+    color: var(--white-color);
+}
+
+.contain-project>h4 {
+    margin: 0px 50px;
+    font-family: var(--font-family-main);
+    font-size: var(--header-3);
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card-project {
+    width: 40%;
+    display: flex;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: var(--white-color);
+    text-decoration:none;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    transition: 0.2s;
+}
+
+.card-project>img {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.card-project>h2 {
+    margin: 15px 0px;
+    font-family: var(--font-family-main);
+    font-size: var(--header-4);
+    color: var(--dark_calm);
+    text-align: start;
+}
+
+.card-project>.row>h5 {
+    font-family: var(--font-family-main);
+    font-size: var(--header-5);
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.card-project>.row>img {
+    margin: 0px 5px;
+    height: auto;
+    max-width: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.card-project:hover {
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 820px) {
+    .card-project {
+        width: 95%;
+    }
+
+    .grid {
+        gap: 15px;
+    }
+    .card-project>.row>img {
+        max-width: 20px;
+    }
+    .contain-project>h4 {
+        font-size: var(--header-4);
+    }
+    .title-slice-project {
+        margin: 0px 10px;
+    
+    }
+
+}

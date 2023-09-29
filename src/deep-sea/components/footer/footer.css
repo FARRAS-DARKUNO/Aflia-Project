@@ -1,0 +1,85 @@
+footer {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    background-color: var(--dark_calm);
+    background-image: linear-gradient(var(--dark_calm), var(--black), var(--black));
+    align-items: end;
+}
+
+.intrerest {
+    display: flex;
+    width: 50%;
+    background-image: url("../../images/bg-carbon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    flex-direction: column;
+}
+
+.intrerest>h3 {
+    font-family: var(--font-family-main);
+    font-size: var(--header-3);
+    color: var(--gray);
+    text-align: center;
+}
+
+.intrerest>h1 {
+    font-family: var(--font-family-main);
+    font-size: var(--header-1);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.information {
+    width: 50%;
+    background-image: url("../../images/backround-dark.jpg");
+    padding: 10px 50px;
+}
+
+.information>h2 {
+    font-family: var(--font-family-main);
+    font-size: var(--header-3);
+    color: var(--gray);
+    text-align: start;
+}
+
+.information>article {
+    font-family: var(--font-family-main);
+    font-size: var(--header-3);
+    color: var(--white-color);
+    text-align: justify;
+
+}
+
+.information>article>span {
+    color: var(--tersier-color);
+}
+
+@media screen and (max-width: 820px) {
+    footer {
+        flex-direction: column-reverse;
+    }
+    .information{
+        width: fit-content;
+        height: auto;
+        padding: 30px;
+    }
+    .intrerest{
+        width: 100%;
+        border-radius: 0;
+        padding: 0 ;
+    }
+}
+@media screen and (max-width: 470px){
+    .intrerest{
+        width: auto;
+        border-radius: 0;
+        padding: 20px;
+    }
+}
