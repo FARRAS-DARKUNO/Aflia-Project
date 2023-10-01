@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import logo from "../../../../public/aflia.png"
 import "./header.css"
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -38,7 +37,7 @@ const Header = () => {
         <header>
             <div className="contain" style={{ backgroundColor: scrolling }}>
                 <a className="row" href=''>
-                    <img src={logo} alt="Logo" style={{ height: 35 }} />
+                    <img src={"https://res.cloudinary.com/dghcfqoie/image/upload/v1696044453/Group_1_3_cn2prh.png"} alt="Logo" style={{ height: 27 }} />
                     <div style={{ width: 10 }} />
                     <h3>Aflia</h3>
                 </a>

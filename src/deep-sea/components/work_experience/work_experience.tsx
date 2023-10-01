@@ -29,7 +29,7 @@ export const WorkExperience = () => {
         },
         {
             company: "PT Kharisma Agri Inovasi",
-            colorStyle: '119944',
+            colorStyle: '119944', 
             image: "https://res.cloudinary.com/dghcfqoie/image/upload/v1695885189/1599199192066_yrgdl9.jpg",
             link: "https://kharismacrop.com/",
             jobDesc: [

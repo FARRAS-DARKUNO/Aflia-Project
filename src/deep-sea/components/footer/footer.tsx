@@ -1,16 +1,14 @@
 import "./footer.css"
-import gmail from "../../../assets/images/gmail.png"
-import wa from "../../../assets/images/wa.webp"
 
 const Footer = () => {
     const listSosmed: Array<ListSosmed> = [
         {
             link: "mailto:abdurrachman.farras7@gmail.com",
-            image: gmail
+            image: "https://res.cloudinary.com/dghcfqoie/image/upload/v1696044492/gmail-logo-16_kii4nm.png"
         },
         {
             link: "https://api.whatsapp.com/send/?phone=%2B6285161782707&text&type=phone_number&app_absent=0",
-            image: wa
+            image: "https://res.cloudinary.com/dghcfqoie/image/upload/v1696044471/WhatsApp_icon.png_hmab6i.webp"
         },
 
     ];

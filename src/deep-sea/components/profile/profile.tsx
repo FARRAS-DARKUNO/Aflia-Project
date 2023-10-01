@@ -1,5 +1,4 @@
 import "./profile.css"
-import image from "../../images/self.png"
 import { Fade } from "react-awesome-reveal"
 
 export const Profile = () => {
@@ -29,7 +28,7 @@ export const Profile = () => {
                     listImage.map(image => {
                         return (
 
-                            <img src={image} alt="React Image" style={{ height: 55, marginRight: 15, marginTop: 10 }} />
+                            <img src={image} alt="React Image" style={{ height: 45, marginRight: 15, marginTop: 10 }} />
 
                         )
                     })
@@ -39,7 +38,7 @@ export const Profile = () => {
 
 
             <Fade className="width-per-image" direction="right">
-                <img src={image} className="image-self" />
+                <img src={"https://res.cloudinary.com/dghcfqoie/image/upload/v1696047618/self_hxc5av.png"} className="image-self" />
             </Fade>
         </div>
     )

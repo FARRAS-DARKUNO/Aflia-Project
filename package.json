@@ -1,9 +1,11 @@
 {
+  "homepage": "https://FARRAS-DARKUNO.github.io/Aflia-Project",
   "name": "aflia-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.6",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -11,6 +13,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.5",
     "react-dom": "^18.2.0",

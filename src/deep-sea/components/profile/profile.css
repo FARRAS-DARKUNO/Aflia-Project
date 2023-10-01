@@ -27,7 +27,7 @@
 }
 
 .title-slice-profile {
-    background-image: url("../../images/slice.png");
+    background-image: url("https://res.cloudinary.com/dghcfqoie/image/upload/v1696044948/Vector_1_waotsa.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
@@ -37,13 +37,13 @@
 
 .h2-profile {
     font-family: var(--font-family-main);
-    font-size: var(--header-1);
+    font-size: var(--header-2);
     color: var(--black-calm);
 }
 
 .im {
     font-family: var(--font-family-main);
-    font-size: var(--header-2);
+    font-size: var(--header-3);
     color: var(--black-calm);
 }
 

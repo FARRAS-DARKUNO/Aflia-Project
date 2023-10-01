@@ -11,7 +11,7 @@ footer {
 .intrerest {
     display: flex;
     width: 50%;
-    background-image: url("../../images/bg-carbon.jpg");
+    background-image: url("https://res.cloudinary.com/dghcfqoie/image/upload/v1696047608/bg-carbon_xbqov1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,20 +38,20 @@ footer {
 
 .information {
     width: 50%;
-    background-image: url("../../images/backround-dark.jpg");
+    background-image: url("https://res.cloudinary.com/dghcfqoie/image/upload/v1696047615/backround-dark_ldr0cg.jpg");
     padding: 10px 50px;
 }
 
 .information>h2 {
     font-family: var(--font-family-main);
-    font-size: var(--header-3);
+    font-size: var(--header-4);
     color: var(--gray);
     text-align: start;
 }
 
 .information>article {
     font-family: var(--font-family-main);
-    font-size: var(--header-3);
+    font-size: var(--header-4);
     color: var(--white-color);
     text-align: justify;
 
